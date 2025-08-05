@@ -1,0 +1,11 @@
+{
+  "RepoType": "developer",
+  "AssociatedBusinessRepo": "https://github.com/manasia83/smart-fin-sql.git",
+  "SyncRules": {
+    "ExcludedPaths": ["/bin/", "/obj/", ".vs/", ".git/"],
+    "AllowedFileTypes": [".cs", ".sql", ".json", ".config", ".md"],
+    "MaxFileSizeKB": 1024,
+    "SyncBranches": ["main"]
+  },
+  "CompatibilitySignature": "smartfin-v1"
+}
