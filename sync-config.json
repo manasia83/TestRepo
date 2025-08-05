@@ -1,11 +1,11 @@
 {
   "RepoType": "developer",
-  "AssociatedBusinessRepo": "https://github.com/manasia83/smart-fin-sql.git",
+  "AssociatedBusinessRepo": "https://github.com/manasia83/TestBus.git",
   "SyncRules": {
-    "ExcludedPaths": ["/bin/", "/obj/", ".vs/", ".git/"],
-    "AllowedFileTypes": [".cs", ".sql", ".json", ".config", ".md"],
-    "MaxFileSizeKB": 1024,
-    "SyncBranches": ["main"]
+    "ExcludedPaths": ["venv/", "__pycache__/", ".git/", ".vscode/"],
+    "AllowedFileTypes": [".py", ".md"],
+    "MaxFileSizeKB": 2048,
+    "SyncBranches": ["TestDevelop"]
   },
-  "CompatibilitySignature": "smartfin-v1"
+  "CompatibilitySignature": "smartfin-python-v1"
 }
